@@ -5,7 +5,7 @@ from array import array
 import sys
 
 
-ssrfParamChecks = ["icon_url","url","uri","authorization_url","redirect_uri","redirect_url","redirect","referrer","origin","location","return_url","link","starturl","return","preview","previewurl","preview_url","loc","path","template","forward","goto","fetch","domain","check","dest","continue","next","site","html","callback","returnto","return_to","feed","host","to","out","view","show","open","viewurl","go","fromurl","from","from_url","fromuri","from_uri","redir","website","profileurl","profile_url","icon","avatar","targeturl","target_url","start","baseurl","oembed"]
+ssrfParamChecks = ["icon_url","url","uri","authorization_url","redirect_uri","redirect_url","redirect","referrer","origin","location","return_url","link","starturl","return","preview","previewurl","preview_url","loc","path","template","forward","goto","fetch","domain","check","dest","continue","next","site","html","callback","returnto","return_to","feed","host","to","out","view","show","open","viewurl","go","fromurl","from","from_url","fromuri","from_uri","redir","website","profileurl","profile_url","icon","avatar","targeturl","target_url","start","baseurl","oembed","pardot"]
 lfiParamChecks = ["samplefile","file","html_file","src","source","upload","download","content","template","attachment","image","path","page","location","loc","include","dir","document","folder","root","pg","p","style","pdf","php_path","doc","icon","directory"]
 fileExtensions = [".js", ".svg", ".jpeg", ".jpg", ".csv", ".xml", ".html", ".php", ".asp", ".aspx", ".png", ".ico", ".json", ".pdf", ".css", ".jsp", ".zip", ".gz", ".swf", ".woff"]
 webRef = ["https", "http", "www"]
